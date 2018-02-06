@@ -1,0 +1,26 @@
+{
+  "name": "describe-url",
+  "version": "1.0.0",
+  "description": "Retrieve the title, description and thumbnail of a given URL",
+  "main": "index.js",
+  "author": "Pedro Marquez <pfernandom@gmail.com>",
+  "license": "Apache-2.0",
+  "private": false,
+  "dependencies": {
+    "node-fetch": "^2.0.0"
+  },
+  "scripts": {
+    "prettier": "prettier --single-quote --trailing-comma es5 --print-width 80 --write --no-bracket-spacing **/*.js",
+    "lintFix": "eslint --fix --ignore-path .gitignore .",
+    "pretest": "eslint --ignore-path .gitignore .",
+    "test": "mocha --reporter spec --timeout 5000"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "chai": "^4.1.2",
+    "eslint": "^4.17.0",
+    "eslint-config-strongloop": "^2.1.0",
+    "mocha": "^5.0.0",
+    "prettier": "^1.10.2"
+  }
+}

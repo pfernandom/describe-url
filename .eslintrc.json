@@ -1,0 +1,15 @@
+{
+	"extends": "strongloop",
+	"parser": "babel-eslint",
+	"env": {
+        "node": true,
+        "mocha": true
+    },
+	"parserOptions": {
+	   "ecmaVersion": 2017
+	 },
+	 "rules": {
+	 	"indent": ["error", "tab"],
+	 	"max-len": [1, 120, 8]
+	 }
+}
