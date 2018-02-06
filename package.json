@@ -22,5 +22,15 @@
     "eslint-config-strongloop": "^2.1.0",
     "mocha": "^5.0.0",
     "prettier": "^1.10.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pfernandom/describe-url.git"
+  },
+  "keywords": [
+    "url",
+    "thumbnail",
+    "description",
+    "parse"
+  ],
 }
