@@ -1,6 +1,6 @@
 {
   "name": "describe-url",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Retrieve the title, description and thumbnail of a given URL",
   "main": "index.js",
   "author": "Pedro Marquez <pfernandom@gmail.com>",
